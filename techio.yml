@@ -5,5 +5,5 @@ plan:
 
 projects:
     project1:
-        root: /projects/1
+        root: /c-project
         runner: techio/cmake-gcc-runner:1.1.0-gcc-7.1
