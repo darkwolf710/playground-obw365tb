@@ -1,6 +1,6 @@
-title: Simple C Template
+title: Programmation appliquéeà l'électronique
 plan:
-- title: C Snippet
+- title: Exercices de langage C
   statement: statement.md
 
 projects:
