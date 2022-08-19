@@ -27,4 +27,4 @@ Description des consignes de l'exercice 2.
 
 ## Exercice 3
 Description des consignes de l'exercice 3.
-@[Exercice3]({"stubs": ["fonction42.cpp"], "command": "./tests [fonction43]"})
+@[Exercice3]({"stubs": ["fonction42.cpp"], "command": "./tests [factorial]"})
