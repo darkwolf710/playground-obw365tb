@@ -14,7 +14,7 @@ int main() {
 ```
 
 
-# Exercice
+# Exercices
 
 
 ## Exercice 1
