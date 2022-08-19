@@ -1,4 +1,13 @@
-find_package(Catch2 REQUIRED)
+Include(FetchContent)
+
+FetchContent_Declare(
+  Catch2
+  GIT_REPOSITORY https://github.com/catchorg/Catch2.git
+  GIT_TAG        v2.13.9 # or a later release
+)
+
+FetchContent_MakeAvailable(Catch2)
+
 target_link_libraries(tests Catch2::Catch2)
 
 cmake_minimum_required(VERSION 2.8.9)
