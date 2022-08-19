@@ -1,12 +1,14 @@
-# Welcome!
+# Bienvenue !
 
-This C template lets you get started quickly with a simple one-page playground.
+Page d'exercices interactifs pour le cours de programmation appliquée à l'électronique.
+
+Premièrement, essayez d'éxecuter le code ci-dessous.
 
 ```C runnable
 #include <stdio.h>
 
 int main() {
-	printf("Hello World!");
+	printf("Bonjour !");
 }
 
 ```
@@ -14,10 +16,4 @@ int main() {
 
 # Exercice
 
-@[Example]({"stubs": ["factorial.cpp"], "command": "./tests [factorial]"})
-
-
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), see the [official documentation](https://tech.io/playgrounds/408/tech-io-documentation).
+@[Exercice pour tester la plateforme de test]({"stubs": ["factorial.cpp"], "command": "./tests [factorial]"})
