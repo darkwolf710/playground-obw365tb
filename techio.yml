@@ -2,3 +2,8 @@ title: Simple C Template
 plan:
 - title: C Snippet
   statement: statement.md
+
+projects:
+    project1:
+        root: /projects/1
+        runner: techio/cmake-gcc-runner:1.1.0-gcc-7.1
