@@ -3,7 +3,7 @@ project (tests)
 add_executable(tests tests.cpp factorial.cpp factorial.h)
 
 # Includes Catch in the project:
-add_subdirectory(/project/build/catch)
+add_subdirectory(/project/target/catch)
 include_directories(${CATCH_INCLUDE_DIR} ${COMMON_INCLUDES})
 enable_testing(true)  # Enables unit-testing.
 
