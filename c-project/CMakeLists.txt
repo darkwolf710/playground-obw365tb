@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8.9)
 project (tests)
-add_executable(tests tests.cpp factorial.cpp factorial.h fonction42.cpp fonction42.h)
+# add_executable(tests tests.cpp factorial.cpp factorial.h fonction42.cpp fonction42.h)
+add_executable(tests tests.cpp)
 
 # Includes Catch in the project:
 # add_subdirectory(catch)
