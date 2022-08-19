@@ -4,17 +4,17 @@
 #include "fonction42.h"
 
 TEST_CASE( "Factorials are computed", "[factorial]" ) {
-
     REQUIRE( Factorial(1) == 1 );
     REQUIRE( Factorial(2) == 2 );
     REQUIRE( Factorial(3) == 6 );
     REQUIRE( Factorial(10) == 3628800 );
-
 }
 
 
 TEST_CASE( "La fonction 42 est executée", "[fonction42]" ) {
-
     REQUIRE( fonction42() == 42 );
+}
 
+TEST_CASE( "La fonction 43 est executée", "[fonction43]" ) {
+    REQUIRE( fonction42() == 43 );
 }

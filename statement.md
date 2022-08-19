@@ -19,3 +19,5 @@ int main() {
 @[Exercice pour tester la plateforme de test]({"stubs": ["factorial.cpp"], "command": "./tests [factorial]"})
 
 @[Fonction qui retourne toujours 42]({"stubs": ["fonction42.cpp"], "command": "./tests [fonction42]"})
+
+@[Fonction qui retourne toujours 43]({"stubs": ["fonction42.cpp"], "command": "./tests [fonction43]"})
