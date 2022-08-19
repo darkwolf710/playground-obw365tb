@@ -1,5 +1,3 @@
-pwd
-ls
 cmake_minimum_required(VERSION 2.8.9)
 project (tests)
 add_executable(tests tests.cpp factorial.cpp factorial.h)
