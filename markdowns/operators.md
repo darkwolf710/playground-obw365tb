@@ -15,3 +15,13 @@ Les principals opérateurs sont : + - * / %
 ## Exercice 2
 Écrire une fonction qui retourne la différence de deux entiers.
 @[Exercice 2]({"stubs": ["operators.cpp"], "command": "./tests [difference]"})
+
+
+## Exercice 2
+Écrire une fonction qui retourne la produit de deux entiers.
+@[Exercice 3]({"stubs": ["operators.cpp"], "command": "./tests [produit]"})
+
+
+## Exercice 4
+Écrire une fonction qui retourne la ratio de deux entiers.
+@[Exercice 4]({"stubs": ["operators.cpp"], "command": "./tests [ratio]"})

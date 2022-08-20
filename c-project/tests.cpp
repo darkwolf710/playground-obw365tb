@@ -20,6 +20,9 @@ TEST_CASE( "La fonction 43 est executée", "[fonction43]" ) {
     REQUIRE( fonction42() == 43 );
 }
 
+
+/* OPERATORS */
+
 TEST_CASE( "La fonction addition est executée", "[addition]" ) {
     REQUIRE( operators(1, 2) == 3 );
     REQUIRE( operators(10, 20) == 30 );
@@ -28,4 +31,15 @@ TEST_CASE( "La fonction addition est executée", "[addition]" ) {
 TEST_CASE( "La fonction difference est executée", "[difference]" ) {
     REQUIRE( operators(1, 2) == -1 );
     REQUIRE( operators(40, 20) == 20 );
+}
+
+TEST_CASE( "La fonction difference est executée", "[produit]" ) {
+    REQUIRE( operators(1, 2) == 2 );
+    REQUIRE( operators(40, 20) == 400 );
+}
+
+TEST_CASE( "La fonction difference est executée", "[ratio]" ) {
+    REQUIRE( operators(10, 2) == 5 );
+    REQUIRE( operators(1, 5) == .2 );
+    REQUIRE_THROWS( operators(1, 0) );
 }
