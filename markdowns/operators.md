@@ -4,6 +4,8 @@ Les principals opérateurs sont : + - * / %
 
 # Amusez vous !
 
+Utilisez la boite de code ci-dessous pour tester le comportement des opérateurs.
+
 ```C runnable
 #include <stdio.h>
 
@@ -16,6 +18,7 @@ int main() {
 
 
 # Exercices
+
 
 
 ## Exercice 1
@@ -44,10 +47,10 @@ int main() {
 
 
 ## Exercice 6
-Écrire une fonction qui prend ramène une position moteur en degrée entre 0 et 360°. Attention, le comportement du compilateur avec des angles négatifs pourrait être surprenant.
+Écrire une fonction qui prend ramène une position moteur en degrée entre 0 et 360°. Attention, le comportement du compilateur avec des angles négatifs pourrait être surprenant. Il pourrait également changer en fonction du compilateur utilisé.
 @[Exercice 6]({"stubs": ["angle.cpp"], "command": "./tests [op_angle_0_360]"})
 
 
 ## Exercice 7
-Écrire une fonction qui prend ramène une position moteur en degrée entre -180° et +180°. Attention, le comportement du compilateur avec des angles négatifs pourrait être surprenant.
+Écrire une fonction qui prend ramène une position moteur en degrée entre -180° et +180°. Attention, le comportement du compilateur avec des angles négatifs pourrait être surprenant. Il pourrait également changer en fonction du compilateur utilisé.
 @[Exercice 7]({"stubs": ["angle.cpp"], "command": "./tests [op_angle_180_180]"})
