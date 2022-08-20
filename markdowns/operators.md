@@ -14,4 +14,4 @@ Les principals opérateurs sont : + - * / %
 
 ## Exercice 2
 Écrire une fonction qui retourne la différence de deux entiers.
-@[Exercice 1]({"stubs": ["operators.cpp"], "command": "./tests [difference]"})
+@[Exercice 2]({"stubs": ["operators.cpp"], "command": "./tests [difference]"})
