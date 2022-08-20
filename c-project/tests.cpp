@@ -59,7 +59,7 @@ TEST_CASE( "La fonction op_angle_0_360 est executée", "[op_angle_0_360]" ) {
     REQUIRE( angle(361) == 1 );
 }
 
-TEST_CASE( "La fonction op_angle_0_360 est executée", "[op_angle_180_180]" ) {
+TEST_CASE( "La fonction op_angle_180_180 est executée", "[op_angle_180_180]" ) {
     REQUIRE( angle(1) == 1 );
     REQUIRE( angle(179) == 179 );
     REQUIRE( angle(359) == -1 );
