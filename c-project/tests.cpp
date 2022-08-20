@@ -11,7 +11,6 @@ TEST_CASE( "Factorials are computed", "[factorial]" ) {
     REQUIRE( Factorial(10) == 3628800 );
 }
 
-
 TEST_CASE( "La fonction 42 est executée", "[fonction42]" ) {
     REQUIRE( fonction42() == 42 );
 }
