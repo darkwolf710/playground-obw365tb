@@ -11,3 +11,4 @@ enable_testing(true)  # Enables unit-testing.
 # add_dependencies(tests catch)
 
 add_test(factorial ./tests [factorial])
+add_test(addition ./tests [addition])
