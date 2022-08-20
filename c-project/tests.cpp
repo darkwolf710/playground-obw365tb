@@ -49,3 +49,19 @@ TEST_CASE( "La fonction modulo est executée", "[modulo]" ) {
     REQUIRE( operators(10, 2) == 0 );
     REQUIRE( operators(1, 5) == 1 );
 }
+
+TEST_CASE( "La fonction op_angle_0_360 est executée", "[op_angle_0_360]" ) {
+    REQUIRE( angle(1) == 1 );
+    REQUIRE( angle(180) == 180 );
+    REQUIRE( angle(359) == 359 );
+    REQUIRE( angle(-1) == 359 );
+    REQUIRE( angle(361) == 1 );
+}
+
+TEST_CASE( "La fonction op_angle_0_360 est executée", "[op_angle_180_180]" ) {
+    REQUIRE( angle(1) == 1 );
+    REQUIRE( angle(179) == 179 );
+    REQUIRE( angle(359) == -1 );
+    REQUIRE( angle(-1) == -1 );
+    REQUIRE( angle(361) == 1 );
+}

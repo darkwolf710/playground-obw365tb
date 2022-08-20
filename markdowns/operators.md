@@ -27,6 +27,16 @@ Les principals opérateurs sont : + - * / %
 @[Exercice 4]({"stubs": ["operators.cpp"], "command": "./tests [ratio]"})
 
 
-## Exercice 4
+## Exercice 5
 Écrire une fonction qui retourne la reste de la division euclydienne de a par b.
-@[Exercice 4]({"stubs": ["operators.cpp"], "command": "./tests [modulo]"})
+@[Exercice 5]({"stubs": ["operators.cpp"], "command": "./tests [modulo]"})
+
+
+## Exercice 6
+Écrire une fonction qui prend ramène une position moteur en degrée entre 0 et 360°.
+@[Exercice 6]({"stubs": ["angle.cpp"], "command": "./tests [op_angle_0_360]"})
+
+
+## Exercice 7
+Écrire une fonction qui prend ramène une position moteur en degrée entre -180° et +180°.
+@[Exercice 7]({"stubs": ["angle.cpp"], "command": "./tests [op_angle_180_180]"})
