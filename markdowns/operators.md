@@ -17,7 +17,7 @@ Les principals opérateurs sont : + - * / %
 @[Exercice 2]({"stubs": ["operators.cpp"], "command": "./tests [difference]"})
 
 
-## Exercice 2
+## Exercice 3
 Écrire une fonction qui retourne la produit de deux entiers.
 @[Exercice 3]({"stubs": ["operators.cpp"], "command": "./tests [produit]"})
 

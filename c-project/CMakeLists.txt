@@ -13,3 +13,5 @@ enable_testing(true)  # Enables unit-testing.
 add_test(factorial ./tests [factorial])
 add_test(addition ./tests [addition])
 add_test(difference ./tests [difference])
+add_test(ratio ./tests [ratio])
+add_test(produit ./tests [produit])
