@@ -1,1 +1,1 @@
-int operator(int a, int b);
+int operator (int a, int b);
