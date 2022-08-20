@@ -33,12 +33,12 @@ TEST_CASE( "La fonction difference est executée", "[difference]" ) {
     REQUIRE( operators(40, 20) == 20 );
 }
 
-TEST_CASE( "La fonction difference est executée", "[produit]" ) {
+TEST_CASE( "La fonction produit est executée", "[produit]" ) {
     REQUIRE( operators(1, 2) == 2 );
     REQUIRE( operators(40, 20) == 400 );
 }
 
-TEST_CASE( "La fonction difference est executée", "[ratio]" ) {
+TEST_CASE( "La fonction ratio est executée", "[ratio]" ) {
     REQUIRE( operators(10, 2) == 5 );
     REQUIRE( operators(1, 5) == .2 );
     REQUIRE_THROWS( operators(1, 0) );
