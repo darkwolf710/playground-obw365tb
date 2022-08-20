@@ -18,3 +18,8 @@ TEST_CASE( "La fonction 42 est executée", "[fonction42]" ) {
 TEST_CASE( "La fonction 43 est executée", "[fonction43]" ) {
     REQUIRE( fonction42() == 43 );
 }
+
+TEST_CASE( "La fonction addition est executée", "[addition]" ) {
+    REQUIRE( addition(1, 2) == 3 );
+    REQUIRE( addition(10, 20) == 30 );
+}
