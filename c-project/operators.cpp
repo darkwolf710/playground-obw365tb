@@ -1,4 +1,4 @@
-int operator (int a, int b) {
+int operators(int a, int b) {
   /* Votre code ici */
   return 0;
 }
