@@ -33,10 +33,10 @@ Les principals opérateurs sont : + - * / %
 
 
 ## Exercice 6
-Écrire une fonction qui prend ramène une position moteur en degrée entre 0 et 360°.
+Écrire une fonction qui prend ramène une position moteur en degrée entre 0 et 360°. Attention, le comportement du compilateur avec des angles négatifs pourrait être surprenant.
 @[Exercice 6]({"stubs": ["angle.cpp"], "command": "./tests [op_angle_0_360]"})
 
 
 ## Exercice 7
-Écrire une fonction qui prend ramène une position moteur en degrée entre -180° et +180°.
+Écrire une fonction qui prend ramène une position moteur en degrée entre -180° et +180°. Attention, le comportement du compilateur avec des angles négatifs pourrait être surprenant.
 @[Exercice 7]({"stubs": ["angle.cpp"], "command": "./tests [op_angle_180_180]"})
