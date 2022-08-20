@@ -1,9 +1,19 @@
 title: Programmation appliquée à l'électronique - Niveau II
 plan:
-- title: Exercices de langage C
-  statement: statement.md
+- title: Bienvenue aux exercices de Programmation appliquée à l'électronique
+  statement: markdowns/welcome.md
+- title: Opérateurs
+  statement: markdowns/underconstruction.md
+- title: Variables
+  statement: markdowns/underconstruction.md
+- title: Structures de contrôle
+  statement: markdowns/underconstruction.md
+- title: Fonctions
+  statement: markdowns/underconstruction.md
+- title: Machine à états
+  statement: markdowns/underconstruction.md
 
 projects:
     project1:
         root: /c-project
-        runner: techio/cmake-gcc-runner:1.1.0-gcc-7.1 
+        runner: techio/cmake-gcc-runner:1.1.0-gcc-7.1
