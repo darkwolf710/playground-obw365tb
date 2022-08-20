@@ -43,3 +43,9 @@ TEST_CASE( "La fonction ratio est executée", "[ratio]" ) {
     REQUIRE( operators(1, 5) == 0 );
     REQUIRE_THROWS( operators(1, 0) );
 }
+
+TEST_CASE( "La fonction modulo est executée", "[modulo]" ) {
+    REQUIRE( operators(11, 5) == 1 );
+    REQUIRE( operators(10, 2) == 0 );
+    REQUIRE( operators(1, 5) == 1 );
+}

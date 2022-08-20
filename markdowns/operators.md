@@ -25,3 +25,8 @@ Les principals opérateurs sont : + - * / %
 ## Exercice 4
 Écrire une fonction qui retourne la ratio de deux entiers. En cas de division par zéro, vous devrez appeler la fonction throw(-1); puis, retourner la valeur 0;
 @[Exercice 4]({"stubs": ["operators.cpp"], "command": "./tests [ratio]"})
+
+
+## Exercice 4
+Écrire une fonction qui retourne la reste de la division euclydienne de a par b.
+@[Exercice 4]({"stubs": ["operators.cpp"], "command": "./tests [modulo]"})
