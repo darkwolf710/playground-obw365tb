@@ -35,11 +35,11 @@ TEST_CASE( "La fonction difference est executée", "[difference]" ) {
 
 TEST_CASE( "La fonction produit est executée", "[produit]" ) {
     REQUIRE( operators(1, 2) == 2 );
-    REQUIRE( operators(40, 20) == 400 );
+    REQUIRE( operators(40, 20) == 800 );
 }
 
 TEST_CASE( "La fonction ratio est executée", "[ratio]" ) {
     REQUIRE( operators(10, 2) == 5 );
-    REQUIRE( operators(1, 5) == .2 );
+    REQUIRE( operators(1, 5) == 0 );
     REQUIRE_THROWS( operators(1, 0) );
 }
