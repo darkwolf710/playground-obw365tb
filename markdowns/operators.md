@@ -2,6 +2,17 @@
 
 Les principals opérateurs sont : + - * / %
 
+# Amusez vous !
+
+```C runnable
+#include <stdio.h>
+
+int main() {
+  int a = 3 + 2;
+	printf("%d", a);
+}
+
+```
 
 
 # Exercices

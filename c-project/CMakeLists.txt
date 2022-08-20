@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.9)
 project (tests)
-add_executable(tests tests.cpp factorial.cpp factorial.h fonction42.cpp fonction42.h
+add_executable(tests tests.cpp
                      operators.cpp operators.h
                      angle.cpp angle.h)
 
