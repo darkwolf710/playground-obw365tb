@@ -3,6 +3,7 @@
 #include "factorial.h"
 #include "fonction42.h"
 #include "operators.h"
+#include "angle.h"
 
 
 TEST_CASE( "Factorials are computed", "[factorial]" ) {
